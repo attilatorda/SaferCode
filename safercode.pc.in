@@ -1,0 +1,7 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: SaferCode
+Description: Memory safety primitives for C
+Version: @PROJECT_VERSION@
+Cflags: -I${includedir}

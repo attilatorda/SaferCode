@@ -1,0 +1,13 @@
+PROJECT_NAME     = "SaferCode"
+PROJECT_NUMBER   = 0.9.0
+
+# Keep generated docs out of source-controlled docs/.
+OUTPUT_DIRECTORY = build/docs
+HTML_OUTPUT      = api
+
+INPUT            = include
+RECURSIVE        = NO
+GENERATE_HTML    = YES
+GENERATE_LATEX   = NO
+EXTRACT_ALL      = YES
+QUIET            = YES

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SaferCode — Examples & Tutorials</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; background: #0f172a; color: #e2e8f0; }
+    h1, h2 { color: #7dd3fc; }
+    a { color: #38bdf8; }
+    .card { background: #162032; border: 1px solid #1e3a5f; border-radius: 8px; padding: 14px 18px; margin: 10px 0; }
+    code { background: #1e293b; padding: 1px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>SaferCode Examples & Tutorial Track</h1>
+  <p>
+    Decision: <strong>examples/</strong> stays small and copy-paste friendly (“hello-world style”),
+    while <strong>tutorials/</strong> hosts multi-step realistic workflows.
+  </p>
+
+  <h2>Quick Examples (examples/)</h2>
+  <div class="card"><code>01_hello_arena</code> — minimal arena allocation + reset flow.</div>
+  <div class="card"><code>02_string_builder</code> — build and finish an <code>SC_String</code>.</div>
+  <div class="card"><code>03_reftracker</code> — register pointers, clear and nullify safely.</div>
+  <div class="card"><code>04_logging</code> — initialize logger and emit structured messages.</div>
+  <div class="card"><code>05_arena_scratch_pattern</code> — per-iteration scratch arena usage.</div>
+  <div class="card"><code>06_url_parser</code> — small URL decomposition prototype (arena slices).</div>
+  <div class="card"><code>07_log_formatter</code> — format one log line using <code>sc_string_builder</code>.</div>
+  <div class="card"><code>08_word_wrapper</code> — wrap text by width with builder appends.</div>
+  <div class="card"><code>09_csv_to_json</code> — tiny CSV row to JSON line transformation.</div>
+
+  <h2>Tutorials (tutorials/)</h2>
+  <div class="card"><code>05_config_file_reader</code> — RAII for file handling + clean early returns.</div>
+  <div class="card"><code>06_expression_evaluator</code> — arena-backed AST lifecycle.</div>
+  <div class="card"><code>07_http_request_parser</code> — combined RAII + arena + string patterns.</div>
+
+  <p>Back to <a href="safercode.html">main docs</a>.</p>
+</body>
+</html>
