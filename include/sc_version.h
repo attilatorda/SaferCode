@@ -10,7 +10,7 @@
 
 #define SC_VERSION_MAJOR 0
 #define SC_VERSION_MINOR 9
-#define SC_VERSION_PATCH 0
+#define SC_VERSION_PATCH 1
 
 #define SC_MAKE_VERSION(maj, min, pat) \
     ((uint32_t)((maj) * 1000000u + (min) * 1000u + (pat)))

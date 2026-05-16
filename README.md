@@ -1,6 +1,13 @@
 # SaferCode
 
+<p align="center">
+  <img src="logo.png" alt="SaferCode logo" width="180" />
+</p>
+
 SaferCode is a header-only C library focused on practical memory-safety building blocks for real-world projects.
+
+> ⚠️ **Experimental status**
+> This project is currently experimental. APIs and behavior may change between minor releases.
 
 ## What it includes
 
@@ -9,7 +16,7 @@ SaferCode is a header-only C library focused on practical memory-safety building
 - **Arena allocator** (`sc_arena.h`) for fast linear allocation patterns
 - **Length-prefixed strings** (`sc_string.h`)
 - **Mutable string builder** (`sc_string_builder.h`)
-- **Cross-platform logging** (`sc_log.h`) with console, file, and TCP targets
+- **Cross-platform logging** (`sc_log.h`) with console, file, TCP, HTTP (REST-style), and fallback targets
 - **Reference tracker** (`sc_reftracker.h`) to null tracked pointers on object teardown
 - **Panic helper** (`sc_panic.h`)
 - **Memory file abstraction** (`sc_memfile.h`) with in-memory/classic/fallback modes
